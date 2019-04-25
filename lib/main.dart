@@ -39,6 +39,9 @@ final List child = map<Widget>(
                 ),
               ),
               padding: EdgeInsets.symmetric(vertical: 10.0, horizontal: 20.0),
+              child:
+              InkWell( 
+              onTap: (){},
               child: Text(
                 'No. $index image',
                 style: TextStyle(
@@ -46,6 +49,7 @@ final List child = map<Widget>(
                   fontSize: 20.0,
                   fontWeight: FontWeight.bold,
                 ),
+              ),
               ),
             ),
           ),
